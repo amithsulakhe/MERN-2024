@@ -1,0 +1,10 @@
+.table-container table {
+  background-color: darkgray;
+  padding: 20px;
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+}
+.table-container table tr th,
+.table-container table tr td {
+  padding: 10px;
+}

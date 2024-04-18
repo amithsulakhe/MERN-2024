@@ -1,0 +1,55 @@
+.registration-form {
+  background-color: #121212;
+  padding: 20px;
+  color: white;
+  /* height: 100vh; */
+}
+.registration-form form {
+  display: flex;
+  background-color: rgb(60, 60, 60);
+  padding: 20px;
+  flex-direction: column;
+  box-shadow: 0 0 3px;
+  border-radius: 20px;
+  gap: 40px;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+.field-conatainer {
+  display: flex;
+  align-items: center;
+}
+.label {
+  width: 15%;
+}
+.input {
+  width: 80%;
+}
+.input input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.btn-submit {
+  display: flex;
+  justify-content: center;
+}
+.btn-submit button {
+  padding: 10px 40px;
+  background-color: rgb(110, 220, 110);
+  border-radius: 10px;
+  border: none;
+  transition: 0.8s;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-submit button:hover {
+  background-color: rgb(172, 255, 172);
+}

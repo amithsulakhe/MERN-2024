@@ -1,0 +1,19 @@
+header {
+  background-color: skyblue;
+}
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container .links-container ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.container .links-container ul li a {
+  text-decoration: none;
+  color: black;
+}
